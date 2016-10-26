@@ -11,8 +11,8 @@ import (
 	"syscall"
 
 	"github.com/codegangsta/cli"
-	"github.com/docker/containerd/api/grpc/types"
 	"github.com/hyperhq/runv/lib/term"
+	"github.com/hyperhq/runv/supervisord/api/grpc/types"
 	"github.com/kardianos/osext"
 	"github.com/opencontainers/runtime-spec/specs-go"
 	netcontext "golang.org/x/net/context"

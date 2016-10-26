@@ -11,8 +11,6 @@ import (
 	"time"
 
 	"github.com/codegangsta/cli"
-	"github.com/docker/containerd/api/grpc/types"
-	"github.com/docker/containerd/osutils"
 	"github.com/golang/glog"
 	"github.com/hyperhq/runv/containerd/api/grpc/server"
 	"github.com/hyperhq/runv/driverloader"
@@ -21,6 +19,8 @@ import (
 	templatefactory "github.com/hyperhq/runv/factory/template"
 	"github.com/hyperhq/runv/hypervisor"
 	"github.com/hyperhq/runv/supervisor"
+	"github.com/hyperhq/runv/supervisord/api/grpc/types"
+	"github.com/hyperhq/runv/supervisord/osutils"
 	templatecore "github.com/hyperhq/runv/template"
 	"google.golang.org/grpc"
 )
